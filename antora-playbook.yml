@@ -4,13 +4,14 @@ site:
 
 content:
   sources:
-    - url: https://github.com/yourusername/yourrepository.git
+    - url: .
       branches: [main]
 
 ui:
   bundle:
-    url: https://git.example.com/my-ui-bundle
+    url: https://gitlab.com/antora/antora-ui-default.git
     snapshot: true
+
 
 output:
   dir: ./public
